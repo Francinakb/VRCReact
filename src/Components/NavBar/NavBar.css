@@ -1,0 +1,24 @@
+.logo-vrc {
+    display: flex;
+}
+
+.letras-navbar {
+    color: white;
+}
+
+.NavBar ul {
+    list-style: none;
+    display: flex;
+}
+
+.NavBar li {
+    margin-left: 20px;
+}
+
+.NavBar.container {
+    display: flex;
+}
+
+.cart-container {
+    color: white;
+}
