@@ -1,5 +1,6 @@
 import Items from "../Items/Items.js"
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
+import Product from '../Product/Product.js'
 
 //functional component
 const ListItems = ({name, price, stock, img}) => {
@@ -33,14 +34,7 @@ const ListItems = ({name, price, stock, img}) => {
     return (
         <div>
             <h1>Productos Destacados</h1>
-            {dataProducts.map((product) => {
-                return(
-                <Items name={product.name} price={product.price} stock={product.stock} img
-                ={product.img}/>
-                )
-            })}
-
-
+            <Product/>
         </div>
     )
 }
