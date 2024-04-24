@@ -1,0 +1,14 @@
+.navbar-style {
+    background-color:#0d294c!important;
+    padding: 20px 0px!important;
+}
+
+.logo-vrc {
+    cursor: pointer;
+}
+
+.navbar-color{
+    color: #ffffff!important;
+    text-transform: uppercase;
+    font-weight: 900;
+}

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import '../../Components/NavBar/NavBar.css'
+import '../../Components/NavBar/NavBar.css';
 import AppBar from '@mui/material/AppBar';
-import logo from "../../Assets/logovrc.png"
-import '../../Components/NavBar/NavBar.css'
+import logo from "../../Assets/logovrc.png";
+import '../../Components/NavBar/NavBar.css';
 import CartWidget from '../CartWidget/Cartwidget';
 
 export default function NavBar() {
