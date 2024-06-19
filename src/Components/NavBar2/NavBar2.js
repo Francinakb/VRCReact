@@ -14,7 +14,7 @@ function ColorSchemesExample() {
                     <img href="#home" className='logo-vrc' src={logo} alt='logo-ecommerce' />
                 </div>
             <Nav className="mx-auto">
-            <Nav.Link className="navbar-color" href="#home">Inicio</Nav.Link>
+            <Nav.Link className="navbar-color" href="#home">Inicio </Nav.Link>
             <Nav.Link className="navbar-color" href="#features">Productos</Nav.Link>
             <Nav.Link className="navbar-color" href="#pricing">Contacto</Nav.Link>
             </Nav>

@@ -1,6 +1,7 @@
 import Items from "../Items/Items.js"
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
 import Product from '../Product/Product.js'
+import React, { useEffect } from "react"
 
 //functional component
 const ListItems = ({name, price, stock, img}) => {
@@ -31,10 +32,26 @@ const ListItems = ({name, price, stock, img}) => {
         }
     ]
 
+    //Promises
+
+    const promesa1 = new Promise((resolve, reject) => {
+        resolve(dataProducts)
+    })
+
+    useEffect(() => {
+        promesa1.then((data) => {
+            console.log("respusta de promesa:", data)
+        })
+    }, [])
+
     return (
         <div>
             <h1>Productos Destacados</h1>
-            <Product/>
+            <Product stock={10}/>
+            <Product stock={2}/>
+            <Product stock={13}/>
+            <Product stock={4}/>
+            <br></br>
         </div>
     )
 }
